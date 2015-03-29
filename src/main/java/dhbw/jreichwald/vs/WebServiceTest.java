@@ -18,7 +18,6 @@ public class WebServiceTest  implements IWebServiceTest {
 
 	private Logger _log = LogManager.getLogger(WebServiceTest.class);
 	
-	@Override
 	public AddResponse add(AddMessage msg) {
 		_log.debug("Request received");
 		AddResponse response = new AddResponse(); 
