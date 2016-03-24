@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 
-@XmlType(name="AddResponse")
+@XmlType(name="AddResponseMessage")
 public class AddResponse {
 
 	private double ergebnis;

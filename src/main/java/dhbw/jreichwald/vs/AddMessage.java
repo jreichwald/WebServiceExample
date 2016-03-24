@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlType;
  *
  */
 
-@XmlType(name="AddMessage")
+@XmlType(name="AddRequestMessage")
 public class AddMessage {
 
 	/**

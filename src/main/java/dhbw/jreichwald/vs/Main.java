@@ -23,5 +23,8 @@ public class Main {
 		String endpoint = "http://localhost:8888/ws"; 
 		Endpoint.publish(endpoint, new WebServiceTest());
 		_log.debug("Web Service exposed - server up and running.");
+	
+		
+	
 	}
 }
