@@ -13,7 +13,8 @@ import org.apache.logging.log4j.Logger;
  *
  */
 @WebService(endpointInterface="dhbw.jreichwald.vs.IWebServiceTest")
-@BindingType(javax.xml.ws.soap.SOAPBinding.SOAP12HTTP_BINDING)
+//Uncomment next line to force SOAP1.2 HTTP Binding
+//@BindingType(javax.xml.ws.soap.SOAPBinding.SOAP12HTTP_BINDING)
 public class WebServiceTest  implements IWebServiceTest {
 
 	private Logger _log = LogManager.getLogger(WebServiceTest.class);
